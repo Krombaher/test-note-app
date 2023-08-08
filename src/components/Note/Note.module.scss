@@ -1,0 +1,68 @@
+$blue: #4361ee;
+
+.note {
+  background-color: #fff;
+  border: 1px solid #dedede;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  padding: 10px;
+  position: relative;
+
+  &:hover {
+    border: 1px solid $blue;
+    box-shadow: 0 0 0 1px $blue;
+
+    .editButtons {
+      opacity: 1;
+    }
+  }
+}
+
+.content {
+  margin: 0 10px;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: bold;
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  a:hover {
+    color: $blue;
+  }
+}
+
+.tags {
+  display: flex;
+
+  span {
+    display: block;
+    font-size: 20px;
+    margin: 5px;
+    color: #8d8a8a;
+
+    &:hover {
+      color: #000;
+      font-weight: 700;
+    }
+  }
+}
+
+.editButtons {
+  display: flex;
+  justify-content: right;
+  margin: 5px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  opacity: 0;
+  transition: all 0.15s ease-in-out;
+
+  &Full {
+    display: none;
+  }
+}
