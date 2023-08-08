@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Krombaher/test-note-app/static/css/main.f6588629.css",
+    "main.js": "/Krombaher/test-note-app/static/js/main.8eb77a32.js",
+    "static/js/787.9243050f.chunk.js": "/Krombaher/test-note-app/static/js/787.9243050f.chunk.js",
+    "index.html": "/Krombaher/test-note-app/index.html",
+    "main.f6588629.css.map": "/Krombaher/test-note-app/static/css/main.f6588629.css.map",
+    "main.8eb77a32.js.map": "/Krombaher/test-note-app/static/js/main.8eb77a32.js.map",
+    "787.9243050f.chunk.js.map": "/Krombaher/test-note-app/static/js/787.9243050f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6588629.css",
+    "static/js/main.8eb77a32.js"
+  ]
+}
